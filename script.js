@@ -7,7 +7,7 @@ async function fetchData() {
     
     var imageSouce =record.hdurl;
     $(document).ready(function(){
-        $('#title').attr('href',imageSouce)
+        $('#toImage').attr('href',imageSouce)
       })
     
 }
