@@ -5,10 +5,11 @@ async function fetchData() {
     document.getElementById("explanation").innerHTML=record.explanation;
     document.getElementById("title").innerHTML=record.title;
     
-    var imageSouce =record.hdurl;
-    $(document).ready(function(){
-        $('#toImage').attr('href',imageSouce)
-      })
     
+
+    document.getElementById("myButton").onclick = function () {
+      window.open(record.hdurl, '_blank');
+
+  }
 }
 fetchData();

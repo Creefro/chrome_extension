@@ -1,7 +1,7 @@
 {
     "name": "APOD Extension",
     "version": "1.0.0",
-    "description": "extension example",
+    "description": "Chrome Extension that shows you the astronomy picture of the day.",
     "manifest_version": 3,
     "author": "Güney Kaya",
     "icons":{
